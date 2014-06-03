@@ -3,6 +3,7 @@
   <head>
     <link type="text/css" rel="stylesheet" href="style.css"/>
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   
    <script>
     $(function(){
     $('.fadein img:gt(0)').hide();
@@ -10,9 +11,10 @@
       $('.fadein :first-child').fadeOut()
          .next('img').fadeIn()
          .end().appendTo('.fadein');}, 
-      7000);
+      4500);
 });
-</script>
+    </script>
+    
     <title>About Me</title>
   </head>
 
@@ -20,13 +22,13 @@
   
   <!--My Header Code -->
     <div class="header">
-      <p>About me~</p>
+      <h2>"About Me"<h2>
       <ul>
-        <h4><strong>Contact Information</strong></h4>
-        <li><a href="mailto:ryanshim24@yahoo.com">Email Me!</a></li>
-        <li><a href="https://www.linkedin.com/pub/ryan-shim/97/b12/863">Connect with me on LinkedIn!</a></li>
-        <li><a href="https://www.facebook.com/ryan.shim.7?ref=tn_tnmn">Add me on FaceBook!</a></li>
-        <li><a href="tel:818-849-0570">818-849-0570</a></li>
+        <h4>Easy Access:</h4>
+        <li><a href="#me">ME!</a></li>
+        <li><a href="#fam">My Family and Friends</a></li>
+        <li><a href="#hobbies">My Hobbies</a></li>
+        <li><a href="#goals">My Goals</a></li>
        </ul>
     </div>
     
@@ -39,7 +41,7 @@
         <p>A Dashing picture of myself</p>
       </div>
       <div class="right">
-        <h3>Me</h3>
+        <a name="me"><h3>Me</h3></a>
         <p> Hi, my name is Ryan Shim and I'm a senior in college currently attending the University of Californa , San Diego. I'm 21 years old, still young and single and if you'd like to know more about me just scroll on down and take a look at my page! If you would like to connect with me in someway just use any of the methods underneath "Contact Infomration"! </p>
           <div class="expereince">
             <h3>Expereience</h3>
@@ -56,7 +58,7 @@
             </ul>
             <h3>Education</h3>
             <p>BA, Economics, University of California San Diego</p>
-              </div>
+		  </div>
         
           <div class="contact">
             <ul>
@@ -74,7 +76,7 @@
     
   <!--My Family and Friends Code -->
     <div class="family">
-      <h1>Family and Friends</h1>
+      <a name ="fam"><h1>Family and Friends:</h1></a>
         <div class="fambam">
           <img src="http://i.imgur.com/aglUqem.jpg" />
           <p>My Wonderful Mom</p>
@@ -111,40 +113,55 @@
   <!--My Java Script -->
     <div class="rotate">
       <div class="fadein">
-        <img src="http://hardcorehoops.net/wp-content/uploads/2013/08/basketball1.jpg">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIeNdj9HwWL0L0wrNQ6x3uUGhwws_rHWh-nlhRifI9NfsPfKPn">
-        <img src="http://designyoutrust.com/wp-content/uploads/2013/03/man-of-steel-movie-desktop-mac-wallpaper.jpg">
-        <img src="http://www.dailyhiit.com/hiit-blog/wp-content/uploads/2013/10/running-wallpaper-41.jpg">
-        <img src="http://1.bp.blogspot.com/-GCHr-_xez74/Ue7Xpkq9xLI/AAAAAAAACJw/mPccxV8634Q/s1600/hello+world+in+C+by+Pcbots.png">
-        <img src="http://fastfoodrestaurantlosangeles.com/wp-content/uploads/2014/01/Gourmet-Foods.jpg">
+        <img src="https://scontent-b.xx.fbcdn.net/hphotos-xfa1/t1.0-9/q71/s720x720/419155_10151499084943667_603042488_n.jpg">
+        <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/s720x720/562696_10151593414669880_1464616278_n.jpg">
+        <img src="https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t1.0-9/q71/s720x720/1491707_10151891455723667_226637888_n.jpg">
+        <img src="https://scontent-b.xx.fbcdn.net/hphotos-xfa1/t1.0-9/s720x720/559224_10151016022633667_549250626_n.jpg">
+        <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/1536610_10151891470068667_317020168_n.jpg">
+        <img src="https://scontent-a.xx.fbcdn.net/hphotos-xaf1/t1.0-9/418262_10151016026038667_672070615_n.jpg">
       </div>
     </div>
     
     <div class="hobbies">
       <div class="fun">
         <ul>
-        <h4>Hobbies and Things I Like</h4>
+        <a name="hobbies"><h4>Hobbies and Things I Like:</h4></a>
           <li>Basketball</li>
-          <li>Reading</li>
+          <li>Guitar</li>
           <li>Movies</li>
           <li>Working-Out</li>
-          <li>Programming</li>
-          <li>Food</li>
+          <li>Playing Board Games</li>
+          <li>Eating</li>
+          <li>An Occasional Nap</li>
         </ul>
       </div>
     </div>
     
     
-    <!--Even More Stuff -->
-    <div class="footer">
+    
+    <!--My Vision and Goals-->
+    <div class="vision">
+      <a name="goals"><h4>Vision/Goals:</h4></a>
+      <h5>Short-Term:</h5>
+      <p>In terms of the short-run, there a couple things that I would like to accomplish! I would like to finish my degree and finally graduate from college! I would like to deepen my understanding in web-development and hope to pursue this field as an everlasting career. And maybe one day in the near future I can be fortunate enough to go on a date! Hopefully, more than once.....</p>
+      <h5>Long-Term:</h5>
+      <p>In terms of the long-run, I think I would categorize this as things I would like to do after I settle down and/or retire. Eventually, I would like to be part of non-profit organization where I can be sent out and help rebuild homes that were destroyed in natural disasters.</p>
     </div>
-      
-        
-       
-  
-  
-  
-  
+    <div class="goals">
+     </div>
+   
+    
+    
+    <!--It's the End-->
+    <div class="footer">
+      <ul>
+        <h4><strong>Contact Information:</strong></h4>
+        <li><a href="mailto:ryanshim24@yahoo.com">Email Me!</a></li>
+        <li><a href="https://www.linkedin.com/pub/ryan-shim/97/b12/863">Connect with me on LinkedIn!</a></li>
+        <li><a href="https://www.facebook.com/ryan.shim.7?ref=tn_tnmn">Add me on FaceBook!</a></li>
+        <li><a href="tel:818-849-0570">818-849-0570</a></li>
+       </ul>
+    </div>
   
   </body>
 </html>
