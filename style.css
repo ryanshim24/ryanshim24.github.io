@@ -1,33 +1,34 @@
-body {
-  background: black;
-}
 
 /* The Part is for the Header */
 .header {
-  background-color: #668284;
+  background-color: #759564;
   border-radius: 10px;
+  border: 2px solid black;
+
   text-align: center;
   width: 98%;  
+  height: 250px;
 }
 
 .header h2 {
   color: #ffffff;
-  font-size: 40px;
-  font-family: Verdana;	
+  font-size: 90px;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  margin-top: 20px;
+  
 }
 
 .header ul {
   color: #ffffff;
-  font-size: 15px;
-  font-family: Verdana;
+  font-size: 30px;
   list-style-type: none;
-  margin-top: -30px;
+  margin-top: -25px;
   padding: 10px;
 }
 
 .header li {
   display: inline; 
-  padding: 0px 10px 0px 10px;
+  padding: 0px 30px 0px 30px;
 }
 
 .header a {
@@ -48,39 +49,40 @@ body {
 }
 
 .left {
-  background-color: #B9D7D9;
+  background-color: #F4F7EC;
   border-radius: 10px;
   border: 2px solid black;
   clear:both;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   float: left;
   height: 500px;
-  margin-top: -20px;
+  margin-top: 20px;
   text-align: center;
   width: 48%;
 }
 
 .right {
-  background-color: #F4EBC3;
+  background-color: #CDDB9D;
   border-radius: 10px;
   border: 2px solid black;
   float: left;
   height: 500px;
-  margin-top: -20px;
+  margin-top: 20px;
   overflow: auto;
   width: 49.5%;
 }
 
 .right p {
   color: black;
-  font-size: 12px;
-  font-family: Verdana;	
+  font-size: 15px;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   padding: 10px;
   text-indent: 20px;
 }
 
 .right h3 {
-  font-family: Verdana;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   margin-left: 10px;
   margin-bottom: -20px;
 }
@@ -92,12 +94,12 @@ body {
 
 .contact {
   position: relative;
+  margin-top: -20px;
 }
 
 .contact ul {
   color: black;
-  font-size: 12px;
-  font-family: Verdana;
+  font-size: 18px;
   list-style-type: none; 
   text-align: center;
 }
@@ -116,10 +118,11 @@ body {
 
 /* The Part Is for My Family and Friends*/
 .family {
-  background-color: #F4BA70;
+  background-color: #EFD9DC;
   border-radius: 10px;
   border: 2px solid black;
   clear: both;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   height: 700px;
   position: relative;
   top: 10px;
@@ -128,12 +131,11 @@ body {
 .family h1 {
   padding: 0px 0px 10px 35px;
   font-size: 35px;
-  font-family: Verdana;
+  font-style: Italic;
 }
 
 .fambam {
   float: left;
-  font-family: Verdana;
   font-size: 18px;
   padding-bottom: 30px;
   text-align: center;
@@ -142,6 +144,8 @@ body {
 
 .fambam img {
   border-radius: 50%;
+  height: 211px;
+  width: 204px
 }
 
 
@@ -168,7 +172,7 @@ body {
 }
 
 .hobbies {
-  background-color: #F4EBC3;
+  background-color: #DAB4C9;
   border-radius: 10px;
   border: 2px solid black;
   float: left;
@@ -182,18 +186,18 @@ body {
 .hobbies ul {
   color: black;
   font-size: 12px;
-  font-family: Verdana;
 }
 
-h4 { 
-  font-family: Verdana;
+.hobbies h4 { 
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   font-size: 25px;
+  font-style: Italic;
   margin-top: 30px; 
   margin-bottom: 18px;
 }
 
 .hobbies li {
-  font-family: Verdana;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 18px;
   margin-left: 50px;
   padding: 5px;
@@ -207,6 +211,7 @@ h4 {
   border: 2px solid black;
   clear:both;
   float: left;
+  font-family: 'Open Sans';
   height: 400px;
   overflow: auto;
   position: relative;
@@ -215,37 +220,59 @@ h4 {
 }
 
 .vision h4 {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  font-size: 23px;
+  font-style: italic;
   margin-left: 20px;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 
 .vision h5 {
-  font-family: Verdana;
   font-size: 15px;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   margin-left: 20px;
   margin-bottom: -10px;
 }
 
 .vision p {
-  font-family: Verdana;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 15px;
   margin-left: 20px;
 }
 
 .goals {
-  background-color: C296B6;
+  background-color: #F4F7EC;
   border-radius: 10px;
   border: 2px solid black;
   float: left;
+  font-family: 'Open Sans';
   height: 400px;
+  overflow: auto;
   position: relative;
-  text-align: center;
   top: 30px;
   width: 50%;   
 }
 
+.goals h4 {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  font-size: 23px;
+  font-style: italic;
+  margin-left: 20px;
+  margin-bottom: -5px;
+}
 
+.goals h5 {
+  font-size: 15px;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  margin-left: 20px;
+  margin-bottom: -10px;
+}
 
+.goals p {
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 15px;
+  margin-left: 20px;
+}
 
 
 /* The Part is just for the website to have an end */
@@ -264,18 +291,26 @@ h4 {
 
 .footer ul {
   color: #ffffff;
-  font-size: 15px;
-  font-family: Verdana;
+  font-size: 28px;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   list-style-type: none;
-  margin-top: -10px;
+  margin-top: -39px;
   padding: 10px;
 }
 
 .footer li {
   display: inline; 
-  padding: 0px 10px 0px 10px;
+  padding: 0px 30px 0px 30px;
 }
 
 .footer a {
   color: #ffffff
+}
+.footer p {
+  float: right;
+  font-size: 25px;
+  margin-right: 30px;
+  margin-top: -130px;
+  position: relative;
+  text-decoration: underline;
 }
