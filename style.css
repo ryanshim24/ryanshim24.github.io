@@ -1,3 +1,7 @@
+body {
+  background: black;
+}
+
 /* The Part is for the Header */
 .header {
   background-color: #668284;
@@ -6,9 +10,9 @@
   width: 98%;  
 }
 
-.header p {
+.header h2 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 40px;
   font-family: Verdana;	
 }
 
@@ -30,20 +34,27 @@
   color: #ffffff
 }
 
+.nav {
+  float: right;
+  margin-top: -40px;
+}
+
 
 /* The Part is Me and My Expereince*/
 .content img {
   border-radius: 50%;
   margin-top: 30px;
-  width: 68%;
+  width: 48%;
 }
 
 .left {
   background-color: #B9D7D9;
   border-radius: 10px;
   border: 2px solid black;
+  clear:both;
   float: left;
   height: 500px;
+  margin-top: -20px;
   text-align: center;
   width: 48%;
 }
@@ -54,6 +65,7 @@
   border: 2px solid black;
   float: left;
   height: 500px;
+  margin-top: -20px;
   overflow: auto;
   width: 49.5%;
 }
@@ -63,7 +75,7 @@
   font-size: 12px;
   font-family: Verdana;	
   padding: 10px;
-  text-indent: 15px;
+  text-indent: 20px;
 }
 
 .right h3 {
@@ -78,12 +90,15 @@
   font-size: 13px;
 }
 
+.contact {
+  position: relative;
+}
+
 .contact ul {
   color: black;
   font-size: 12px;
   font-family: Verdana;
   list-style-type: none; 
-  margin-top: -20px;
   text-align: center;
 }
 
@@ -140,16 +155,16 @@
   height: 450px;
   position: relative;
   text-align: center;
-  top: 30px;
-  width: 58%;   
+  top: 20px;
+  width: 48%;   
 }
 
-
 .fadein img { 
+ border-radius: 10px;
+ height: 100%;
+ left: 0;
  position: absolute;
  width: 100%;
- height:450px;
- border-radius: 10px;
 }
 
 .hobbies {
@@ -160,8 +175,8 @@
   height: 450px;
   overflow: auto;
   position: relative;
-  top: 30px;
-  width: 40%;
+  top: 20px;
+  width: 50%;
 }
 
 .hobbies ul {
@@ -170,7 +185,7 @@
   font-family: Verdana;
 }
 
-.fun h4 { 
+h4 { 
   font-family: Verdana;
   font-size: 25px;
   margin-top: 30px; 
@@ -184,6 +199,55 @@
   padding: 5px;
 }
 
+
+/* The Part is just for the vision */
+.vision {
+  background-color: #B9D7D9;
+  border-radius: 10px;
+  border: 2px solid black;
+  clear:both;
+  float: left;
+  height: 400px;
+  overflow: auto;
+  position: relative;
+  top: 30px;
+  width: 48%;
+}
+
+.vision h4 {
+  margin-left: 20px;
+  margin-bottom: -10px;
+}
+
+.vision h5 {
+  font-family: Verdana;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: -10px;
+}
+
+.vision p {
+  font-family: Verdana;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.goals {
+  background-color: C296B6;
+  border-radius: 10px;
+  border: 2px solid black;
+  float: left;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  top: 30px;
+  width: 50%;   
+}
+
+
+
+
+
 /* The Part is just for the website to have an end */
 .footer {
   background-color: #668284;
@@ -192,6 +256,26 @@
   clear: both;
   height: 140px;
   position:relative;
+  text-align: center;
   top: 40px;
   width: 99%;
+}
+
+
+.footer ul {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Verdana;
+  list-style-type: none;
+  margin-top: -10px;
+  padding: 10px;
+}
+
+.footer li {
+  display: inline; 
+  padding: 0px 10px 0px 10px;
+}
+
+.footer a {
+  color: #ffffff
 }
